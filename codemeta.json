@@ -1,0 +1,99 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Planetary Intelligence",
+  "description": "Research program spanning marine microbial ecology, reference library epistemology, and emergence in complex adaptive systems. The through-line is a single method: build a reference library, run it against an environment, attend to what fails to match.",
+  "identifier": "https://github.com/rdgroussman/planetary-intelligence",
+  "codeRepository": "https://github.com/rdgroussman/planetary-intelligence",
+  "url": "https://jovian.bio",
+
+  "author": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0001-7874-7217",
+    "givenName": "Ryan D.",
+    "familyName": "Groussman",
+    "alternateName": "Mora Groussman",
+    "email": "mora@foxcoded.xyz",
+    "url": "https://jovian.bio",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Independent Researcher"
+    },
+    "sameAs": [
+      "https://orcid.org/0000-0001-7874-7217",
+      "https://github.com/rdgroussman",
+      "https://github.com/mora-vector",
+      "https://scholar.google.com/citations?user=mm1hCMkAAAAJ",
+      "https://www.linkedin.com/in/mora-groussman/",
+      "https://www.researchgate.net/profile/Mora-Groussman",
+      "https://khazars.wiki",
+      "https://strangeanchor.khazars.wiki",
+      "https://foxcoded.xyz"
+    ]
+  },
+
+  "license": "https://www.apache.org/licenses/LICENSE-2.0",
+  "programmingLanguage": ["Python", "HTML", "JSON-LD"],
+
+  "keywords": [
+    "planetary intelligence",
+    "marine microbial ecology",
+    "metatranscriptomics",
+    "reference adequacy",
+    "unseen diversity",
+    "transition zone",
+    "anomaly preservation",
+    "emergence",
+    "complex adaptive systems",
+    "ontology",
+    "human-AI collaboration"
+  ],
+
+  "hasPart": [
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Strange Anchor",
+      "description": "Collaborative ontology and knowledge architecture for studying emergence at domain interfaces. Structured data, session transcripts, a twelve-term entity ontology, and validation tooling — built to be forkable, validated, and gap-honest.",
+      "codeRepository": "https://github.com/mora-vector/strange-anchor",
+      "url": "https://strangeanchor.khazars.wiki",
+      "author": {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7874-7217"
+      },
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "isBasedOn": "https://khazars.wiki"
+    }
+  ],
+
+  "relatedLink": [
+    "https://strangeanchor.khazars.wiki",
+    "https://khazars.wiki",
+    "https://foxcoded.xyz",
+    "https://github.com/armbrustlab/marferret",
+    "https://github.com/armbrustlab/NPac_euk_gene_catalog"
+  ],
+
+  "referencePublication": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "MarFERReT, an open-source, version-controlled reference library of marine microbial eukaryote functional genes",
+      "identifier": "https://doi.org/10.1038/s41597-023-02842-4",
+      "url": "https://doi.org/10.1038/s41597-023-02842-4",
+      "datePublished": "2023"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The North Pacific Eukaryotic Gene Catalog of metatranscriptome assemblies and annotations",
+      "identifier": "https://doi.org/10.1038/s41597-024-04005-5",
+      "url": "https://doi.org/10.1038/s41597-024-04005-5",
+      "datePublished": "2024"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The dynamic trophic architecture of open-ocean protist communities revealed through machine-guided metatranscriptomics",
+      "identifier": "https://doi.org/10.1073/pnas.2100916119",
+      "url": "https://doi.org/10.1073/pnas.2100916119",
+      "datePublished": "2022"
+    }
+  ]
+}
