@@ -1,0 +1,87 @@
+cff-version: 1.2.0
+title: Planetary Intelligence
+message: >-
+  Research program spanning marine microbial ecology, reference library
+  epistemology, and emergence in complex adaptive systems. If you use
+  materials from this repository, please cite it using the metadata
+  from this file.
+type: software
+authors:
+  - family-names: Groussman
+    given-names: Ryan D.
+    alias: Mora Groussman
+    orcid: "https://orcid.org/0000-0001-7874-7217"
+    email: mora@foxcoded.xyz
+    affiliation: Independent Researcher
+repository-code: "https://github.com/rdgroussman/planetary-intelligence"
+url: "https://jovian.bio"
+keywords:
+  - planetary intelligence
+  - marine microbial ecology
+  - metatranscriptomics
+  - reference library
+  - reference adequacy
+  - unseen diversity
+  - transition zone
+  - anomaly preservation
+  - emergence
+  - complex adaptive systems
+  - ontology
+  - human-AI collaboration
+license: Apache-2.0
+
+# ── Related works ──────────────────────────────────────────────────
+# The references section creates citation-graph edges that DataCite,
+# OpenAIRE, and Zenodo recognize. Same ORCID on both sides of the
+# Strange Anchor reference binds the credentialed identity to the
+# emergent repository at the scholarly-infrastructure level.
+
+references:
+  - type: software
+    title: Strange Anchor
+    abstract: >-
+      Collaborative ontology and knowledge architecture for studying
+      emergence at domain interfaces. Structured data, session
+      transcripts, a twelve-term entity ontology, and validation
+      tooling.
+    repository-code: "https://github.com/mora-vector/strange-anchor"
+    url: "https://strangeanchor.khazars.wiki"
+    authors:
+      - family-names: Groussman
+        given-names: Ryan D.
+        alias: Mora Groussman
+        orcid: "https://orcid.org/0000-0001-7874-7217"
+    keywords:
+      - ontology
+      - emergence
+      - human-AI collaboration
+      - reference adequacy
+      - transition zone
+      - anomaly preservation
+      - hyperstition
+    license: CC-BY-SA-4.0
+
+  - type: software
+    title: MarFERReT
+    abstract: >-
+      Marine Functional EukaRyotic Redundancy-minimized Transcript
+      database. Open-source, version-controlled reference library for
+      marine microbial eukaryote functional genes.
+    repository-code: "https://github.com/armbrustlab/marferret"
+    doi: "10.1038/s41597-023-02842-4"
+    authors:
+      - family-names: Groussman
+        given-names: Ryan D.
+        orcid: "https://orcid.org/0000-0001-7874-7217"
+
+  - type: data
+    title: North Pacific Eukaryotic Gene Catalog
+    abstract: >-
+      Comprehensive metatranscriptome assembly and annotation resource
+      from North Pacific surface waters.
+    repository-code: "https://github.com/armbrustlab/NPac_euk_gene_catalog"
+    doi: "10.1038/s41597-024-04005-5"
+    authors:
+      - family-names: Groussman
+        given-names: Ryan D.
+        orcid: "https://orcid.org/0000-0001-7874-7217"
